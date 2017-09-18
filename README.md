@@ -1,4 +1,4 @@
-Simple puppet classes for basic server configuration. Tested on EL7. All configuration are made through params.pp manifest. The following resources are provided:
+Simple puppet classes for basic server configuration. Tested on EL7 and puppet5. All configuration are made through params.pp manifest. The following resources are provided:
 
 selinux 
 adding users
