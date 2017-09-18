@@ -1,7 +1,7 @@
 forge 'forge.puppetlabs.com'
 
 # Forge Modules
-mod 'puppetlabs-puppetserver_gem', '1.0.0'
+mod 'puppetlabs-git', '0.5.0'
 mod 'puppet-r10k', '6.1.0'
 mod 'puppetlabs-ntp', '6.2.0'
 mod 'puppetlabs-stdlib', '4.19.0'
