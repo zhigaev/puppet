@@ -11,4 +11,6 @@ class base::sshd (
     sshd_config_allowgroups	=> $allow_groups,
     permit_root_login		=> "$permit_root_login",
   }
+
+  ensure_resource('group', $allow_groups, { 'ensure' => 'present' })
 }
