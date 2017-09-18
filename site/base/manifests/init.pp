@@ -1,4 +1,5 @@
 class base inherits base::params {
+  include base::r10k
   include base::sudoers
   include colorprompt
   include iptables

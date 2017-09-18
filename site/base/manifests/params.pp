@@ -75,4 +75,7 @@ class base::params {
   $sshd_port			= '22'
   $sshd_allowgroups		= ['ssh_access']
   $sshd_permit_root_login	= 'no'
+
+  # R10k 
+  $git_remote_repo		= 'git@github.com:zhigaev/puppet.git'
 }
